@@ -1,0 +1,30 @@
+body {
+font: normal 1em arial, helvetica, sans-serif;
+
+}
+
+h1 {
+
+    font-size: 2em;
+    color: green;
+}
+h2 {
+
+    color: rgb(0, 11, 128);
+}
+
+#titulo-principal {
+    background-color: blue;
+    color: bisque;
+    text-align: center;
+
+}
+
+.topico {
+
+    text-align: right;
+}
+.texto {
+
+    text-align: justify;
+}

@@ -1,0 +1,58 @@
+/*Estilo para o container principal*/
+#container-principal {
+ background-color: crimson; /*Define a cor de fundo*/
+ padding: 20px;/* Espaço do lado de dentro*/
+ height: 350px;/*Altura*/
+ border: 2px slateblue;/*adiciona borda*/
+ border-radius: 10px;/*define cantos como arredondados*/
+}
+.caixa-simples {
+
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+}
+/*Estilo para a caixa com o ID exclusivo*/
+#caixa-diferente {
+
+    background-color: purple;
+    margin: 10px;/* Espaço do lado de fora*/
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;/*Define o alinhamento do texto*/
+    line-height: 100px;/*Espaçamento entre linhas do texto*/
+    border-radius: 10px;
+}
+#caixa-diferente:hover {
+    background-color: rgb(228, 41, 197);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

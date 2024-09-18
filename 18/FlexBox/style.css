@@ -1,0 +1,18 @@
+#pai {
+
+    background-color: rgb(227, 161, 80);
+    display: flex;
+   flex-direction: row; /*Controla a direção dos elementos filhos*/
+    height: 300px;
+    justify-content: space-between;/*Controla a disposição dos filhos*/
+    /*start end center space around space evenly space between*/
+    flex-wrap: wrap; /*Controla se os itens vão pular para a proxima linha*/
+    /*wrap, now-wrap*/
+    align-items: stretch;/*alinha os filhos do eixo segundário*/
+}
+.filho {
+    background-color: rgb(213, 141, 165);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}

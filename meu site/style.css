@@ -1,0 +1,193 @@
+.cabecalho {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(223, 141, 193);
+}
+
+.cabecalho_logo {
+    padding:1.5em 0;
+    width: 10.5em;
+    margin-left: 40px;
+    
+
+}
+
+#logo {
+    width: 100px;
+}
+.cabecalho_menu {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1.88em 1.42em;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/papel-de-parede-floral-em-aquarela-com-espaco-em-branco_23-2148446968.avif);
+    width: 100%;
+    height: 80vh;
+}
+.banner-texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;/*Cor do texto*/
+    text-transform: uppercase;
+    text-align: center;/*Centralizar o texto da div .banner-tex*/
+    background-color: rgb(236, 164, 230);/*Adicionar um fundo semi-transparente para melhorar legibilidade*/
+    padding: 20px;/*adicionar um espaço interno para o texto*/
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.banner-texto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px 0 rgb(240, 232, 235);
+}
+.botão-saiba-mais {
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 5px;
+    align-self: center;
+}
+.botão-saiba-mais:hover{
+
+    transform: translateY(-2px);
+    background-color: rgb(143, 73, 209);
+    box-shadow: 0 20px 30px 0 red;
+}
+
+.container-pai{
+    display: flex;/*Tranforma em flexbox*/
+    padding: 25px; /*adiciona a margem dentro*/
+    justify-content: space-evenly; /*Espaço entre os elementos*/
+    
+    background-color: palevioletred;/*Cor do fundo*/
+    flex-wrap: wrap;
+}
+
+
+.container-filho {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 7, 190);/*Cor do fundo*/
+    width: 200px;/*Tamanho do container*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Tipo da fonte*/
+    font-weight: bold; /*Peso da fonte (negrito)*/
+    color: rgb(226, 133, 27); /*Cor da fonte*/
+    border-radius: 10px; /*Cantos arredodados*/
+    padding: 20px; /*Adiciona a margem dentro*/
+    text-align: center;/*Centraliza o texto*/
+}
+
+
+.container-filho:hover {
+    transform: translateY(-5px);
+    background-color: rgb(236, 178, 232);
+    box-shadow: 0 20px 30px 0 rgb(223, 178, 221);
+}
+
+
+.imagem {
+    width: 70px;/*Tamanho das imagens*/
+    
+    border-radius: 50%;/*Cantos arredondados da imagem*/
+}
+.container-final {
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: red;
+    flex-wrap: wrap;
+}
+.container-semifinal {
+    background-color: black;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.imagem-buque{
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.bah{
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.imagem-bah {
+    width: 250px;
+    height: auto;
+}
+
+body{
+    background-color: rgb(155, 42, 165);
+}
+
+        .banner2{
+          display: flex;
+           align-items: center;
+              justify-content:center ;
+          background-image:url(img/pexels-kpaukshtite-701754.jpg) ;
+          background-size: cover;
+                  text-align: center;
+                  width: 100%;
+                color: black;
+                 height: 500px;
+}
+
+.form-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px silver;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px;
+    text-align: left;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+}

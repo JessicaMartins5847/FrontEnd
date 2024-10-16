@@ -1,0 +1,27 @@
+body {
+    font-family: arial, sans-serif;/*Altera a fonte*/
+    text-align: center; /*Alinha o texto*/
+    margin-top: 50px;/*Adiciona margem no topo*/
+}
+
+h1 {
+    color: burlywood; /*Troca a cor da fonte*/
+}
+
+button {
+    padding: 10px 20px;/*adiciona margem interna*/
+    font-size: 16px;/*altera o tamanho da fonte*/
+    cursor: pointer;/*faz o cursor virar uma "mãozinha"*/
+    background-color: blue;/*alterra a cor de fundo*/
+    color: white;/*altera a cor da fonte*/
+    border: none;/*retira a borda*/
+    border-radius: 5px;/*faz os cantos ficarem arredondados*/
+}
+
+button:hover {
+    background-color: blue;/*altera a cor de fundo*/
+}
+#texto {
+    font-size: 18px;/*altera o tamanho da fonte*/
+    margin-bottom: 20px; /*adiciona uma margem embaixo*/
+}

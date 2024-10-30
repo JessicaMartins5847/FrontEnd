@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Cards com Modal</title>
+  <!-- Link do Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="Animais do Pantanal.jfif" class="card-img-top" alt="Imagem Card 1">
+        <div class="card-body">
+          <h5 class="card-title">Arara-Azul</h5>
+          <p class="card-text">As Arara-Azuis estão em extinção, no mundo inteiro existe 16 espécies e são consideradas aves bem interessantes.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card1Modal">
+            Mais Informações
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="🌿 Virtudes do Arquétipo do Camaleão 🌿.jfif" class="card-img-top" alt="Imagem Card 2">
+        <div class="card-body">
+          <h5 class="card-title">Camaleão</h5>
+          <p class="card-text">Simplesmente o animal mais bonito e interessante na minha percepção.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card2Modal">
+            Mais Informações
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="onça pintada.jfif" class="card-img-top" alt="Imagem Card 3">
+        <div class="card-body">
+          <h5 class="card-title">Onça pintada</h5>
+          <p class="card-text">O que a onça representa?
+            “A onça ganhou uma força muito grande como símbolo de luta, como símbolo de resistência, como símbolo na luta da demarcação de terra indígena, a onça como símbolo da população.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card3Modal">
+            Mais Informações
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal para o Card 1 -->
+<div class="modal fade" id="card1Modal" tabindex="-1" aria-labelledby="card1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="card1ModalLabel">Red Dead Redemption II</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <p>
+          "A arara-azul, também chamada arara-azul-grande, é uma espécie de ave, encontrada no Brasil, que se caracteriza por ser a maior entre os psitacídeos (família Psittacidae), chegando a atingir mais de um metro de comprimento, medindo-se da ponta do bico à ponta da cauda. Essa espécie habita diferentes formações vegetais, sendo encontrada em formações savânicas e até em ambientes de floresta no Brasil, Paraguai e Bolívia. As maiores populações dessa espécie de arara são encontradas no Pantanal."
+
+          Veja mais sobre "Arara-azul" em: https://brasilescola.uol.com.br/animais/arara-azul.htm
+        </p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para o Card 2 -->
+<div class="modal fade" id="card2Modal" tabindex="-1" aria-labelledby="card2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="card2ModalLabel">The Elder Scrolls V: Skyrim</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          O camaleão possui de 150 á 160 especie. Apresentam uma coloração que pode variar conforme o ambiente, sendo influenciada, por exemplo, pela iluminação ou conforme a mudança de sensações – nesses casos, o sistema nervoso atua sobre as células de pigmentos.
+
+          A mudança de coloração não está relacionada apenas com a camuflagem, estando ligada também a outras funções, como a atração de parceiros e defesa de território.
+          
+          Podem projetar a língua até uma distância de quase o dobro de seu tamanho corporal.
+          
+          Segundo a Lista Vermelha de Espécies Ameaçadas da União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN), o camaleão comum está classificado como pouco preocupante, ou seja, não apresenta grande risco de extinção. .
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal para o Card 3 -->
+<div class="modal fade" id="card3Modal" tabindex="-1" aria-labelledby="card3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="card3ModalLabel">The Witcher 3: Wild Hunt</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body"></div>A onça-pintada reina nos ambientes onde vive, pois é considerada um predador topo de cadeia. Elas controlam populações de presas e são de extrema importância no equilíbrio dos ecossistemas onde estão inseridas. São carnívoras estritas, ou seja, alimentam-se exclusivamente de carne. Alimenta-se de animais como tatus, cutias, jacarés, antas e capivaras, além de outras 80 espécies que fazem parte do seu cardápio. .
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Script do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

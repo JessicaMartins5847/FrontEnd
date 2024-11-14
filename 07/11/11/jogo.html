@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas</title>
+    <link rel="shortcut icon" href="img.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page2">
+
+    <main>
+        <section class="pai questao ativa" >
+            <h3 class="titulo filho" id="pergunta">Qual país tem mais <br> títulos da Copa  do Mundo..?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(false)">China</button>
+                <button class="resposta" onclick="responder(false)">Canadá</button>
+                <button class="resposta" onclick="responder(true)">Brasil</button>
+                <button class="resposta" onclick="responder(false)">Estados Unidos </button>
+                <button class="resposta" onclick="responder(false)">Rússia</button>
+            </div>
+            
+            
+        </section>
+
+        <section class="pai questao" >
+            <h3 class="titulo filho" id="pergunta">De quem é a famosa frase <br> "Penso, logo existo"..?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(false)">Platão</button>
+                <button class="resposta" onclick="responder(false)">Galeleu Galilei</button>
+                <button class="resposta" onclick="responder(true)">Descartes</button>
+                <button class="resposta" onclick="responder(false)">Sócrates</button>
+                <button class="resposta" onclick="responder(false)">Francis Bacon</button>
+            </div>
+            
+            
+        </section>
+
+        <section class="pai questao" >
+            <h3 class="titulo filho" id="pergunta">De onde é a invenção do<br> chuveiro elétrico..?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(false)">Austrália</button>
+                <button class="resposta" onclick="responder(false)">Inglaterra</button>
+                <button class="resposta" onclick="responder(false)">França</button>
+                <button class="resposta" onclick="responder(false)">Itália </button>
+                <button class="resposta" onclick="responder(true)">Brasil</button>
+            </div>
+            
+            
+        </section>
+
+        <section class="pai questao" >
+            <h3 class="titulo filho" id="pergunta">Quanto tempo a luz do Sol demora para  <br> chegar á Terra..?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(false)">12 Minutos</button>
+                <button class="resposta" onclick="responder(false)">1 Dia</button>
+                <button class="resposta" onclick="responder(false)">12 Horas</button>
+                <button class="resposta" onclick="responder(true)">8 Minutos </button>
+                <button class="resposta" onclick="responder(false)">12 Segundos</button>
+            </div>
+            
+            
+        </section>
+
+
+        <section class="pai questao" >
+            <h3 class="titulo filho" id="pergunta">Quais o menor e o maior  país  <br> do mundo..?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(true)">Vaticano e Rússia </button>
+                <button class="resposta" onclick="responder(false)">Nauru e China</button>
+                <button class="resposta" onclick="responder(false)">Mônoco e Canadá</button>
+                <button class="resposta" onclick="responder(false)">Malta e Estados Unidos </button>
+                <button class="resposta" onclick="responder(false)">São Marino e índia</button>
+            </div>
+            
+            
+        </section>
+        
+    </main>
+
+        <!-- Imagem de erro em tela cheia -->
+        <div id="telaCheiaErro" class="tela-cheia">
+            <img src="susto2.jfif" alt="Erro" id="imagemErro">
+            <audio id="somErro" src="audio3.mp3"></audio>
+        </div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
